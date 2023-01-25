@@ -27,7 +27,7 @@ Users should be able to:
 ### Mobile
 ![](./design/mobile-design.jpg)
 ### Desktop
-![](./design/desktop-preview.jpg)
+![](./design/desktop-design.jpg)
 
 ### Links
 
