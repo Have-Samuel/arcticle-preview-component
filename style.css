@@ -14,6 +14,8 @@
   --light-grayish-blue: hsl(210, 46%, 95%);
   --white-glow: hsl(0, 0%, 100%);
   --greyish-black: hsl(217, 19%, 35%);
+  --light-grayish: hsl(212, 23%, 69%);
+
 }
 
 body {
@@ -83,6 +85,28 @@ section {
   line-height: 20px;
   letter-spacing: 0.1px;
   text-align: left;
-
+  color: var(--greyish-black);
 }
 
+.word .date {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--light-grayish);
+}
+
+.share-img {
+  height: 32px;
+  width: 32px;
+  padding: 0.6rem;
+  background-color: var(--light-grayish-blue);
+  border-radius: 50%;
+  margin: 0 1.6rem 0 4.7rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.share {
+  height: 15px;
+  width: 15px;
+}
