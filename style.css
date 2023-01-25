@@ -12,8 +12,20 @@
   --desaturated-dark-blue: hsl(214, 17%, 51%);
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
+  --white-glow: hsl(0, 0%, 100%);
 }
 
 body {
+  background-color: var(--light-grayish-blue);
   width: 375px;
+  height: 667px;
+  margin: 0 auto;
+}
+
+section {
+  height: 512px;
+  width: 327px;
+  border-radius: 10px;
+  background-color: var(--white-glow);
+
 }
