@@ -58,3 +58,13 @@ section {
   padding: 0 2rem 2rem 2rem;
 }
 
+.base {
+  display: flex;
+  padding: 0 7.7rem 1.25rem 2rem;
+}
+
+.base .face {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
