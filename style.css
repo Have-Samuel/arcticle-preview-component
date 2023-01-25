@@ -13,6 +13,7 @@
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
   --white-glow: hsl(0, 0%, 100%);
+  --greyish-black: hsl(217, 19%, 35%);
 }
 
 body {
@@ -23,9 +24,37 @@ body {
 }
 
 section {
-  height: 512px;
   width: 327px;
   border-radius: 10px;
   background-color: var(--white-glow);
-
 }
+
+.image {
+  height: 200px;
+  width: 327px;
+  background: url('./images/drawers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 20%;
+}
+
+.para1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: var(--greyish-black);
+  padding: 2.25rem 2rem 0.75rem 2rem;
+}
+
+.para2 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: var(--greyish-black);
+  padding: 0 2rem 2rem 2rem;
+}
+
