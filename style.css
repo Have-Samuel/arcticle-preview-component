@@ -68,3 +68,21 @@ section {
   width: 40px;
   border-radius: 50%;
 }
+
+.word {
+  /* height: 40px; */
+  width: 116px;
+  padding-left: 1rem;
+}
+
+.word .name {
+  height: 20px;
+  width: 116px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: left;
+
+}
+
