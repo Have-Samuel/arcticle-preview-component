@@ -127,12 +127,25 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 2rem;
+}
+
+.font {
+  width: 62px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: rgba(157, 174, 194, 1);
+  text-decoration: none;
 }
 
 .self {
-  margin-left: 3.5rem;
-  background-color: var(--light-grayish);
-  color: var(--white-glow);
+  margin-left: 1.5rem;
+  background-color: var(--desaturated-dark-blue);
   margin-right: 1.5rem;
   height: 32px;
   width: 32px;
