@@ -117,7 +117,7 @@ section {
   display: flex;
   border-radius: 0 0 10px 10px;
   background-color: var(--darkish-black);
-  /* display: none; */
+  display: none;
 }
 
 .media-items {
