@@ -117,13 +117,11 @@ section {
 }
 
 #media {
-  /* width: 375px; */
   position: fixed;
   top: 571px;
-  /* right: 0; */
+  display: none;
   border-radius: 0 0 10px 10px;
   background-color: var(--darkish-black);
-  display: none;
 }
 
 .social {
@@ -165,4 +163,20 @@ section {
   width: 32px;
   padding: 0.5rem;
   border-radius: 50px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    /* width: 1440px; */
+    margin: 9rem auto;
+  }
+
+  section {
+    height: 280px;
+    width: 730px;
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+
 }
