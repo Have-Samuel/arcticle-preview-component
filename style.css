@@ -103,11 +103,14 @@ section {
   margin: 0 1.6rem 0 4.7rem;
   justify-content: center;
   cursor: pointer;
+  color: var(--white-glow);
 }
 
 .share {
-  height: 15px;
+  height: 12px;
   width: 15px;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 #media {
@@ -124,4 +127,15 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.self {
+  margin-left: 3.5rem;
+  background-color: var(--light-grayish);
+  color: var(--white-glow);
+  margin-right: 1.5rem;
+  height: 32px;
+  width: 32px;
+  padding: 0.5rem;
+  border-radius: 50px;
 }
