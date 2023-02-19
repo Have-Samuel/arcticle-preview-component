@@ -166,17 +166,19 @@ section {
 }
 
 @media (min-width: 1440px) {
-  body {
-    /* width: 1440px; */
-    margin: 9rem auto;
-  }
-
   section {
     height: 280px;
     width: 730px;
     display: flex;
-    /* flex-direction: row; */
+    flex-wrap: wrap;
   }
 
-
+  .image {
+    height: 280px;
+    width: 285px;
+    background: url('./images/drawers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0% 20%; */
+  }
 }
