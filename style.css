@@ -16,7 +16,6 @@
   --greyish-black: hsl(217, 19%, 35%);
   --light-grayish: hsl(212, 23%, 69%);
   --darkish-black: rgba(72, 85, 106, 1);
-
 }
 
 body {
@@ -112,7 +111,17 @@ section {
 }
 
 #media {
-  /* display: none; */
-  
+  display: flex;
+  border-radius: 0 0 10px 10px;
   background-color: var(--darkish-black);
+}
+
+.media-items {
+  display: flex;
+  gap: 1.5rem;
+  height: 4rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
