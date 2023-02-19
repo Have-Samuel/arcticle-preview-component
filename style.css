@@ -25,9 +25,12 @@ body {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
   width: 327px;
   border-radius: 10px;
   background-color: var(--white-glow);
+  position: relative;
 }
 
 .image {
@@ -114,13 +117,26 @@ section {
 }
 
 #media {
-  display: flex;
+  /* width: 375px; */
+  position: fixed;
+  top: 571px;
+  /* right: 0; */
   border-radius: 0 0 10px 10px;
   background-color: var(--darkish-black);
   display: none;
 }
 
+.social {
+  display: flex;
+}
+
+#media.visible {
+  display: block;
+  animation: fade-slide-in 0.3s ease-out forwards;
+}
+
 .media-items {
+  width: 217px;
   display: flex;
   gap: 1rem;
   height: 4rem;

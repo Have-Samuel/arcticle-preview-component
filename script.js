@@ -1,6 +1,22 @@
 const forwardArrow = document.querySelector('#forward-arrow');
-
-forwardArrow.addEventListener('click', () => {
-  forwardArrow.style.display = 'block';
+const backwardArrow = document.querySelector('#backward-arrow');
+backwardArrow.addEventListener('click', () => {
+  forwardArrow.classList.toggle('visible');
   console.log('HELLO!');
 });
+
+// const toggleMedia = () => {
+//   forwardArrow.classList.toggle('visble');
+// };
+
+// const section = () => {
+//   backwardArrow.classList.toggle('#vivsble');
+//   toggleMedia();
+// };
+
+// const mainMedia = () => {
+//   section();
+// };
+
+// forwardArrow.addEventListener('click', mainMedia);
+
