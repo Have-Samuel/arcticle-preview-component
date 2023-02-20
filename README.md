@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Github]()
+- [Github](https://github.com/Have-Samuel/arcticle-preview-component)
 - [Live Link]()
 
 ## My process
@@ -47,15 +47,15 @@ Users should be able to:
 
 ## Author
 
-- [@Have-Samuel](https://www.frontendmentor.io/profile/Have-Samuel)
-- [@samhave1](https://twitter.com/samhave1)
+- [FrontendMentor](https://www.frontendmentor.io/profile/Have-Samuel)
+- [Twitter](https://twitter.com/samhave1)
 - [LinkedIn](https://www.linkedin.com/in/have-samuel/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Have-Samuel/arcticle-preview-component/issues).
 
 ## Show your support
 
