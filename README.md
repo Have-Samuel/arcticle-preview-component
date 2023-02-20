@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/arcticle-preview-component)
-- [Live Link]()
+- [Live Link](https://article-preview-card212.netlify.app/)
 
 ## My process
 
