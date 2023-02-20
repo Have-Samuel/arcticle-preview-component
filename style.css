@@ -80,7 +80,6 @@ section {
 }
 
 .word {
-  /* height: 40px; */
   width: 116px;
   padding-left: 1rem;
 }
@@ -138,7 +137,6 @@ section {
 
 #media.visible {
   display: block;
-  animation: fade-slide-in 0.3s ease-out forwards;
 }
 
 .media-items {
@@ -252,10 +250,7 @@ section {
   }
 
   .dropdown {
-    background:
-      url('./images/Path\ 2.png'),
-      linear-gradient(0deg, #48556a, #48556a),
-      linear-gradient(0deg, #979797, #979797);
+    background: url('./images/Path\ 2.png');
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 16px solid #48556a;
