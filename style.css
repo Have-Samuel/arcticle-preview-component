@@ -220,14 +220,14 @@ section {
   }
 
   .share-img {
-    margin-left: 11.5rem;
+    margin-left: 11.2rem;
   }
 
   #media {
     width: 249px;
-    position: fixed;
-    top: 371px;
-    right: 360px;
+    position: absolute;
+    top: 120px;
+    right: -60px;
     display: none;
     border-radius: 10px;
     background-color: var(--darkish-black);
@@ -262,7 +262,9 @@ section {
     position: absolute;
     width: 24px;
     height: 12px;
-    left: 115px;
+    /* left: 111px;
+    top: 63px; */
+    left: 111px;
     top: 63px;
   }
 }
