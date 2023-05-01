@@ -169,6 +169,10 @@ section {
   border-radius: 50px;
 }
 
+#shadow-host-companion {
+  display: none;
+}
+
 @media (min-width: 50em) {
   body {
     display: flex;
