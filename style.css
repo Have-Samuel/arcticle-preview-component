@@ -20,17 +20,14 @@
 
 body {
   background-color: var(--light-grayish-blue);
-  width: 375px;
+}
+
+section {
   margin: 9rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
   width: 327px;
   border-radius: 10px;
   background-color: var(--white-glow);
@@ -44,6 +41,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 28%;
+  border-radius: 10px 10px 0 0;
 }
 
 .para1 {
@@ -70,7 +68,8 @@ section {
 
 .base {
   display: flex;
-  padding: 0 7.7rem 1.25rem 2rem;
+  padding: 0 0 1.25rem 2rem;
+  margin: 0 1rem;
 }
 
 .base .face {
@@ -80,7 +79,6 @@ section {
 }
 
 .word {
-  /* height: 40px; */
   width: 116px;
   padding-left: 1rem;
 }
@@ -138,7 +136,6 @@ section {
 
 #media.visible {
   display: block;
-  animation: fade-slide-in 0.3s ease-out forwards;
 }
 
 .media-items {
@@ -147,7 +144,6 @@ section {
   gap: 1rem;
   height: 4rem;
   list-style: none;
-  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -173,14 +169,12 @@ section {
   border-radius: 50px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 50em) {
   body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 1440px;
   }
 
   section {
@@ -252,10 +246,7 @@ section {
   }
 
   .dropdown {
-    background:
-      url('./images/Path\ 2.png'),
-      linear-gradient(0deg, #48556a, #48556a),
-      linear-gradient(0deg, #979797, #979797);
+    background: url('./images/Path\ 2.png');
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 16px solid #48556a;
