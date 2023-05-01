@@ -175,14 +175,23 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 9rem auto;
   }
 
   section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     height: 280px;
     width: 730px;
-    display: flex;
     flex-wrap: wrap;
     position: relative;
+  }
+
+  #shadow-host-companion {
+    display: none;
   }
 
   .image {
@@ -228,6 +237,11 @@ section {
     box-shadow: 5px 5px 20px rgb(104, 101, 101);
   }
 
+  .social {
+    width: 248px;
+    margin-right: -1rem;
+  }
+
   .media-items {
     gap: 1.6rem;
   }
@@ -242,7 +256,6 @@ section {
 
   .font {
     margin-left: 2.3rem;
-    margin-right: -0.5rem;
   }
 
   .dropdown {
